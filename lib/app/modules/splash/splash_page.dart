@@ -46,7 +46,7 @@ class _SplashPageState extends State<SplashPage> with TickerProviderStateMixin {
     motionController.addListener(() {
       if (!mounted) return;
       setState(() {
-        size = motionController.value * 250;
+        size = motionController.value * 200;
       });
     });
 

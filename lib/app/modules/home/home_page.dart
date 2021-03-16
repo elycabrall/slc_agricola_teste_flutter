@@ -63,11 +63,6 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       ultimaAtualizacao = data;
     });
-
-    _scaffoldKey.currentState.showSnackBar(SnackBar(
-      content: Text('Os dados foram atualizados'),
-      duration: Duration(seconds: 3),
-    ));
   }
 
   @override
@@ -155,11 +150,21 @@ class _HomePageState extends State<HomePage> {
                           setState(() {
                             reload = true;
                           });
-                          await Modular.get<ResultadoBloc>().fetch(reset: true);
+                          bool atualizou = await Modular.get<ResultadoBloc>()
+                              .fetch(reset: true);
                           getUltimaAtualizacao();
                           setState(() {
                             reload = false;
                           });
+
+                          _scaffoldKey.currentState.showSnackBar(
+                            SnackBar(
+                              content: Text(atualizou
+                                  ? 'Os dados foram atualizados'
+                                  : 'Verifique sua conexão com a internet'),
+                              duration: Duration(seconds: 3),
+                            ),
+                          );
                         },
                       ),
                     ],
