@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:slc_app/app/shared/app_text/app_text.dart';
 import 'package:slc_app/app/shared/utils/functions.dart';
 import 'package:slc_app/app/shared/widgets/appbar/appbar.dart';
-import 'package:slc_app/app/shared/widgets/button_solid/button_solid_widget.dart';
+import 'package:slc_app/app/shared/widgets/button_border/button_border_widget.dart';
 
 import 'fale_conosco_model.dart';
 
@@ -37,8 +37,7 @@ class _FaleConoscoPageState extends State<FaleConoscoPage> {
             decoration: BoxDecoration(
               color: Colors.transparent,
               image: DecorationImage(
-                image: AssetImage(
-                    'assets/images/ilustracoes/homem_sentado_comentario.png'),
+                image: AssetImage('assets/images/ilustracoes/3.png'),
               ),
             ),
           ),
@@ -104,7 +103,7 @@ class _FaleConoscoPageState extends State<FaleConoscoPage> {
                   SizedBox(
                     height: 10,
                   ),
-                  ButtonSolidWidget(
+                  ButtonBorderWidget(
                     'Enviar',
                     () {
                       setState(() {

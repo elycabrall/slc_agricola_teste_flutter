@@ -115,18 +115,12 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                     child: ListView(
                       padding: EdgeInsets.all(0),
                       children: [
-                        _itemMenu(
-                          context,
-                          'Dados Pessoais',
-                          () {
-                            Modular.to.pushNamed('/menu/dados-pessoais');
-                          },
-                        ),
+                       
                         _itemMenu(
                           context,
                           'Fale Conosco',
                           () {
-                            Modular.to.pushNamed('/menu/fale-conosco');
+                            Modular.to.pushNamed('/home/fale-conosco');
                           },
                         )
                       ],
