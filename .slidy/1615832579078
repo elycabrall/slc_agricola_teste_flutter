@@ -1,0 +1,4 @@
+lib/app/shared/widgets/button_solid/button_solid_widget.dart
+test/app/shared/widgets/button_solid/button_solid_widget_test.dart
+lib/app/shared/widgets/button_solid/button_solid_bloc.dart
+test/app/shared/widgets/button_solid/button_solid_bloc_test.dart

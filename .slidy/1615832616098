@@ -1,0 +1,4 @@
+lib/app/shared/widgets/modal_alerta/modal_alerta_widget.dart
+test/app/shared/widgets/modal_alerta/modal_alerta_widget_test.dart
+lib/app/shared/widgets/modal_alerta/modal_alerta_bloc.dart
+test/app/shared/widgets/modal_alerta/modal_alerta_bloc_test.dart

@@ -1,0 +1,4 @@
+lib/app/modules/onboard/widgets/item_onboard/item_onboard_widget.dart
+test/app/modules/onboard/widgets/item_onboard/item_onboard_widget_test.dart
+lib/app/modules/onboard/widgets/item_onboard/item_onboard_bloc.dart
+test/app/modules/onboard/widgets/item_onboard/item_onboard_bloc_test.dart
