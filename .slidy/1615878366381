@@ -1,0 +1,4 @@
+lib/app/modules/home/widgets/grid/grid_widget.dart
+test/app/modules/home/widgets/grid/grid_widget_test.dart
+lib/app/modules/home/widgets/grid/grid_bloc.dart
+test/app/modules/home/widgets/grid/grid_bloc_test.dart

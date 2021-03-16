@@ -36,7 +36,7 @@ class HomeBloc extends Disposable {
             _grupos.add(element);
           }
         });
-
+        _grupos.sort((a, b) => a.nome.toString().compareTo(b.nome.toString()));
         _controller.value = _grupos;
       }
 

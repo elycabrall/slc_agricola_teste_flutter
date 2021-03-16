@@ -8,7 +8,7 @@ import 'fale_conosco_model.dart';
 
 class FaleConoscoPage extends StatefulWidget {
   final String title;
-  const FaleConoscoPage({Key key, this.title = "FaleConosco"})
+  const FaleConoscoPage({Key key, this.title = "Fale Conosco"})
       : super(key: key);
 
   @override
@@ -37,7 +37,7 @@ class _FaleConoscoPageState extends State<FaleConoscoPage> {
             decoration: BoxDecoration(
               color: Colors.transparent,
               image: DecorationImage(
-                image: AssetImage('assets/images/ilustracoes/3.png'),
+                image: AssetImage('assets/img/ilustracoes/3.png'),
               ),
             ),
           ),
@@ -114,6 +114,7 @@ class _FaleConoscoPageState extends State<FaleConoscoPage> {
                         enviando = false;
                       });
                     },
+                    color: Theme.of(context).primaryColor,
                     showProgress: enviando,
                   )
                 ],

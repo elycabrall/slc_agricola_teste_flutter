@@ -1,3 +1,5 @@
+import 'package:slc_app/app/modules/home/widgets/chart/chart_bloc.dart';
+import 'package:slc_app/app/modules/home/widgets/grid/grid_bloc.dart';
 import 'package:slc_app/app/modules/home/widgets/item_detalhe/item_detalhe_bloc.dart';
 import 'package:slc_app/app/modules/home/widgets/drawer/drawer_bloc.dart';
 import 'package:slc_app/app/modules/home/home_bloc.dart';
@@ -10,6 +12,8 @@ import 'pages/fale_conosco/fale_conosco_page.dart';
 class HomeModule extends ChildModule {
   @override
   List<Bind> get binds => [
+        Bind((i) => ChartBloc()),
+        Bind((i) => GridBloc()),
         Bind((i) => FaleConoscoBloc()),
         Bind((i) => ItemDetalheBloc()),
         Bind((i) => DrawerBloc()),

@@ -1,0 +1,4 @@
+lib/app/modules/home/widgets/chart/chart_widget.dart
+test/app/modules/home/widgets/chart/chart_widget_test.dart
+lib/app/modules/home/widgets/chart/chart_bloc.dart
+test/app/modules/home/widgets/chart/chart_bloc_test.dart

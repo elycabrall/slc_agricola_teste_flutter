@@ -48,14 +48,14 @@ class ItemDetalheWidget extends StatelessWidget {
               Text(
                 valor.toString(),
                 style: TextStyle(
-                  fontSize: 30,
+                  fontSize: 22,
                   fontWeight: FontWeight.w900,
                 ),
               ),
               Text(
                 campo.toString(),
                 style: TextStyle(
-                  fontSize: 16,
+                  fontSize: 14,
                   fontWeight: FontWeight.w600,
                 ),
               ),
