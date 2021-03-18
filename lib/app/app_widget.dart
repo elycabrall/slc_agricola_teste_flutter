@@ -11,6 +11,10 @@ class AppWidget extends StatefulWidget {
 class _AppWidgetState extends State<AppWidget> {
   final _blocResultado = Modular.get<ResultadoBloc>();
 
+
+
+
+
   @override
   void initState() {
     _blocResultado.fetch();
